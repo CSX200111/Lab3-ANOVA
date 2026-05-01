@@ -1,9 +1,9 @@
 """
-Lab 3 - ANOVA Test using WorldEnergy.csv
+Lab 3 - ANOVA Test using world_energy.csv
 Course: KQC7016 Data Analytics
 
 Purpose:
-This program demonstrates a one-way ANOVA test using the WorldEnergy.csv dataset.
+This program demonstrates a one-way ANOVA test using the world_energy.csv dataset.
 The selected dependent variable is renewables_share_elec, which measures the
 percentage share of electricity generation from renewable sources.
 
@@ -34,7 +34,7 @@ warnings.filterwarnings("ignore")
 # ------------------------------------------------------------
 # 1. File path and output folder
 # ------------------------------------------------------------
-DATA_FILE = "WorldEnergy.csv"          # Put WorldEnergy.csv in the same folder as this file
+DATA_FILE = "world_energy.csv"          # Put world_energy.csv in the same folder as this file
 OUTPUT_DIR = "Lab3_Output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
